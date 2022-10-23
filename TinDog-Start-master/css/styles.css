@@ -1,0 +1,179 @@
+body {
+  font-family: "Montserrat";
+  text-align: center;
+}
+
+p {
+  color: #8f8f8f;
+  font-family: cursive-bold;
+}
+
+em {
+  font-size: 2rem;
+  font-family: Montserrat-bold;
+}
+
+/* Contanier */
+.container-fluid {
+  padding: 7% 15%;
+}
+
+/* Section */
+.color-section {
+  background-color: #ff4c68;
+  color: #fff;
+}
+
+.white-section {
+  background-color: #fff;
+}
+
+/* Title section  */
+#title {
+  text-align: left;
+}
+
+#title .container-fluid {
+  padding: 2% 15% 7%;
+}
+
+/* Big -Heading */
+h1, h2, h3, h4, h5, h6 {
+  font-family: montserrat-blod;
+}
+
+/* the styling of heading */
+.big-heading {
+  font-family: "montserrat-black";
+  font-size: 3.5rem;
+  line-height: 1.5;
+  color: #fff;
+}
+
+.section-heading {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+/* Nvaigation Bar */
+.navbar {
+  padding: 0 0 2rem;
+}
+
+.navbar-brand {
+  font-family: "ubantu";
+  font-size: 3.5rem;
+  font-weight: bold;
+}
+
+.nav-link {
+  font-size: 1.9rem;
+  font-family: "Montserrat-light";
+  margin-right: 20px
+}
+
+/* Title image */
+.title-image {
+  width: 25%;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 25%
+}
+
+/* button */
+.button-download {
+  margin: 5% 3% 5% 0;
+}
+
+/* features-section */
+#features {
+  position: relative;
+  z-index: 1;
+}
+
+.feature-box {
+  padding: 5%;
+}
+
+.icon {
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+
+.icon:hover {
+  color: #ff4c58;
+}
+
+.feature-title {
+  font-size: 2.5rem;
+  line-height: 1.5;
+}
+
+/* Testimonials/-section */
+#testimonials {
+  background-color: #ef8172;
+}
+
+.testimonial-image {
+  border-radius: 200%;
+  width: 20%;
+  margin: 15%;
+}
+
+.testimonial-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+/* press-section */
+#press {
+  background-color: #ef8172;
+  padding: 5%;
+}
+
+.press-logo {
+  width: 20%;
+  margin: 10px 20px 50px
+}
+
+/* Pricing */
+#pricing {
+  padding: 5%;
+}
+
+.pricing-col {
+  padding: 2% 2%;
+}
+
+.price-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+/* z-index */
+@media (max-width: 1028px) {
+  #title {
+    text-align: center;
+  }
+
+  .title-image {
+    position: static;
+    transform: rotate(0);
+    width: 50%;
+  }
+}
+
+/* section cta */
+/* section-footer  */
+#footer {
+  margin-top: 50px;
+}
+
+.social-icon {
+  margin: 25px 20px;
+  font-size: 1.5rem;
+}
+
+.social-icon:hover {
+  color: black;
+}

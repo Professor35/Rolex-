@@ -1,0 +1,45 @@
+/****************************************TAG SELCTOR****************************************/
+
+body{
+    background-color:#B7E5DD;
+}
+h1{
+    color:white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: black;
+    width: fit-content;
+    height: fit-content;
+    text-align: center;
+    font-size:50px;
+}
+p{
+    background-color: ivory;
+    color: #363062;
+    font-family: fantasy;
+    width: fit-content;
+    height: fit-content;
+}
+
+img:hover{
+    background-color:gold;
+    position: relative;
+    top:30px;
+}
+
+/*****************************************************CLASS SELECTOR******************************/
+
+.bacon{
+    background-color :#00FFAB;
+
+}
+.broccoli{
+    background-color:#2F8F9D;
+}
+
+/*************************************ID SELECTOR************************************/
+
+#heading{
+    background-color:#9A86A4;
+    color: #00FFAB;
+}
+
